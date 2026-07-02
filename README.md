@@ -100,28 +100,28 @@ it does on any light theme.
 ### Light (`ghost-of-panda-light`)
 
 Panda has no official light palette, so the light variant keeps its hues and darkens each
-accent to meet WCAG AA on a warm off-white background (`#F7F5F0`).
+accent to meet WCAG AA on a warm greige background (`#F0EBE1`).
 
 <details><summary><strong>Light palette (ANSI + UI)</strong></summary>
 
 | Slot | Role | Hex | | Slot | Role | Hex |
 |---:|---|---|---|---:|---|---|
-| 0 | black | `#2B2D2E` | | 8 | bright black | `#696E77` |
-| 1 | red | `#DB0043` | | 9 | bright red | `#DB0043` |
-| 2 | green | `#037C6A` | | 10 | bright green | `#037C6A` |
-| 3 | yellow | `#A85700` | | 11 | bright yellow | `#A85700` |
-| 4 | blue | `#0671C6` | | 12 | bright blue | `#0671C6` |
-| 5 | magenta | `#D60063` | | 13 | bright magenta | `#D60063` |
-| 6 | cyan | `#0C777D` | | 14 | bright cyan | `#0C777D` |
-| 7 | white | `#C8C6C0` | | 15 | bright white | `#E4E2DC` |
+| 0 | black | `#2B2D2E` | | 8 | bright black | `#6D675A` |
+| 1 | red | `#D10040` | | 9 | bright red | `#D10040` |
+| 2 | green | `#037766` | | 10 | bright green | `#037766` |
+| 3 | yellow | `#A35400` | | 11 | bright yellow | `#A35400` |
+| 4 | blue | `#066BBC` | | 12 | bright blue | `#066BBC` |
+| 5 | magenta | `#CC005F` | | 13 | bright magenta | `#CC005F` |
+| 6 | cyan | `#0C7379` | | 14 | bright cyan | `#0C7379` |
+| 7 | white | `#B4AC9C` | | 15 | bright white | `#E0DDD6` |
 
 | UI element | Hex |
 |---|---|
-| `background` | `#F7F5F0` |
+| `background` | `#F0EBE1` |
 | `foreground` | `#2B2D2E` |
 | `cursor-color` | `#2B2D2E` |
-| `cursor-text` | `#F7F5F0` |
-| `selection-background` | `#CBD3E6` |
+| `cursor-text` | `#F0EBE1` |
+| `selection-background` | `#D3CEC5` |
 | `selection-foreground` | `#2B2D2E` |
 
 </details>
