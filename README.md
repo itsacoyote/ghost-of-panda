@@ -2,8 +2,8 @@
 
 A [Ghostty](https://ghostty.org) terminal theme inspired by
 [**Panda**](https://github.com/PandaTheme), retuned so every color meets WCAG AA contrast.
-It ships in **dark and light variants** that Ghostty can switch automatically with your
-system appearance. The name is a play on words: **Ghost**ty + **Panda**.
+It ships in **dark, dusk, and light variants**; the dark and light ones switch
+automatically with your system appearance. The name is a play on words: **Ghost**ty + **Panda**.
 
 Panda is a warm, dark theme that is no longer actively maintained and never shipped a
 Ghostty port. Ghost of Panda keeps its pink, teal, and orange character while making every
@@ -16,6 +16,10 @@ color comfortably readable. It is an independent, unaffiliated tribute.
 **Dark** (`ghost-of-panda`):
 
 ![Ghost of Panda dark: a terminal window showing the palette and sample output](assets/ghost-of-panda.svg)
+
+**Dusk** (`ghost-of-panda-dusk`):
+
+![Ghost of Panda dusk: a terminal window showing the palette and sample output](assets/ghost-of-panda-dusk.svg)
 
 **Light** (`ghost-of-panda-light`):
 
@@ -36,7 +40,7 @@ each color, so you can judge readability at a glance.
 
 ```bash
 mkdir -p ~/.config/ghostty/themes
-for t in ghost-of-panda ghost-of-panda-light; do
+for t in ghost-of-panda ghost-of-panda-dusk ghost-of-panda-light; do
   curl -fLo ~/.config/ghostty/themes/$t \
     https://raw.githubusercontent.com/itsacoyote/ghost-of-panda/main/themes/$t
 done
@@ -65,6 +69,12 @@ or switch automatically with your system's light and dark mode:
 
 ```
 theme = light:ghost-of-panda-light,dark:ghost-of-panda
+```
+
+The dusk variant is a standalone theme; use it on its own with:
+
+```
+theme = ghost-of-panda-dusk
 ```
 
 Then reload your config with <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>,</kbd> on macOS (or restart Ghostty).
@@ -97,6 +107,36 @@ it does on any light theme.
 | `selection-background` | `#8E93A4` |
 | `selection-foreground` | `#292A2B` |
 
+### Dusk (`ghost-of-panda-dusk`)
+
+A twilight variant about two steps lighter than the dark theme. A mid-dark background lowers
+contrast, so the accents are brightened to hold WCAG AA, which makes them read a touch more
+luminous. It is a standalone theme, not part of the light/dark auto-switch.
+
+<details><summary><strong>Dusk palette (ANSI + UI)</strong></summary>
+
+| Slot | Role | Hex | | Slot | Role | Hex |
+|---:|---|---|---|---:|---|---|
+| 0 | black | `#292A2B` | | 8 | bright black | `#ACB0B9` |
+| 1 | red | `#FF8FA9` | | 9 | bright red | `#FF8FA9` |
+| 2 | green | `#05C7AA` | | 10 | bright green | `#05C7AA` |
+| 3 | yellow | `#FF970F` | | 11 | bright yellow | `#FF970F` |
+| 4 | blue | `#67B7F9` | | 12 | bright blue | `#67B7F9` |
+| 5 | magenta | `#F68ED0` | | 13 | bright magenta | `#F68ED0` |
+| 6 | cyan | `#17C7D3` | | 14 | bright cyan | `#17C7D3` |
+| 7 | white | `#E6E6E6` | | 15 | bright white | `#FFFFFF` |
+
+| UI element | Hex |
+|---|---|
+| `background` | `#3E4250` |
+| `foreground` | `#E6E6E6` |
+| `cursor-color` | `#E6E6E6` |
+| `cursor-text` | `#3E4250` |
+| `selection-background` | `#9097A7` |
+| `selection-foreground` | `#2B2D2E` |
+
+</details>
+
 ### Light (`ghost-of-panda-light`)
 
 Panda has no official light palette, so the light variant keeps its hues and darkens each
@@ -128,18 +168,18 @@ accent to meet WCAG AA on a soft warm-grey background (`#E4E2DC`).
 
 ### Notes on the palette
 
-- **Accessibility first.** Both variants adapt Panda's colors so each meets WCAG AA against
-  the background. In the dark theme, Panda's signature red (`#FF2C6D`, 3.99:1) becomes its
-  lighter sibling `#FF4B82` (4.51:1) and the dim comment gray becomes a readable `#8E93A4`.
-  The light theme darkens every accent to stay readable on the paper background.
+- **Accessibility first.** Each variant adapts Panda's colors so every one meets WCAG AA
+  against the background. In the dark theme, Panda's signature red (`#FF2C6D`, 3.99:1) becomes
+  its lighter sibling `#FF4B82` (4.51:1) and the dim comment gray becomes a readable `#8E93A4`.
+  The light theme darkens every accent to stay readable on the paper background; the dusk
+  theme brightens them for its mid-dark background.
 - **A real cyan.** Panda has no dedicated cyan (its "green" `#19F9D8` is really a teal), so
   older Panda terminal ports reused a light blue in the cyan slot. Ghost of Panda adds a
-  true cyan (`#2CE0EA` dark, `#0C777D` light) so cyan and blue read as distinct.
+  true cyan (`#2CE0EA` dark, `#0C6E74` light, `#17C7D3` dusk) so cyan and blue read as distinct.
 - **A more saturated Panda exists.** Panda's official iTerm port uses a darker, more
   saturated interpretation (background `#1D1E20`, red `#FB055A`). Ghost of Panda follows
   the canonical editor palette, the look most people associate with Panda.
-- Every value is plain hex; tweak any slot in `themes/ghost-of-panda` or
-  `themes/ghost-of-panda-light` to taste.
+- Every value is plain hex; tweak any slot in the theme files under `themes/` to taste.
 
 ## Credits
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 388" font-family="'SF Mono','JetBrains Mono','Fira Code','Menlo','Consolas',monospace" font-size="15">
+  <!-- window -->
+  <rect x="20" y="20" width="780" height="346" rx="12" fill="#3E4250" stroke="#4C5160" stroke-width="1"/>
+  <!-- titlebar -->
+  <path d="M32,20 h756 a12,12 0 0 1 12,12 v22 h-780 v-22 a12,12 0 0 1 12,-12 z" fill="#343843"/>
+  <circle cx="48" cy="37" r="6.5" fill="#FF8FA9"/>
+  <circle cx="70" cy="37" r="6.5" fill="#FF970F"/>
+  <circle cx="92" cy="37" r="6.5" fill="#05C7AA"/>
+  <text x="410" y="42" text-anchor="middle" fill="#ACB0B9" font-size="13" letter-spacing="0.4">Ghost of Panda Dusk</text>
+
+  <!-- palette swatch band (ANSI 0-15) -->
+  <g stroke="#4C5160">
+    <rect x="48"  y="72" width="40" height="22" rx="4" fill="#292A2B"/>
+    <rect x="93"  y="72" width="40" height="22" rx="4" fill="#FF8FA9"/>
+    <rect x="138" y="72" width="40" height="22" rx="4" fill="#05C7AA"/>
+    <rect x="183" y="72" width="40" height="22" rx="4" fill="#FF970F"/>
+    <rect x="228" y="72" width="40" height="22" rx="4" fill="#67B7F9"/>
+    <rect x="273" y="72" width="40" height="22" rx="4" fill="#F68ED0"/>
+    <rect x="318" y="72" width="40" height="22" rx="4" fill="#17C7D3"/>
+    <rect x="363" y="72" width="40" height="22" rx="4" fill="#E6E6E6"/>
+    <rect x="408" y="72" width="40" height="22" rx="4" fill="#ACB0B9"/>
+    <rect x="453" y="72" width="40" height="22" rx="4" fill="#FF8FA9"/>
+    <rect x="498" y="72" width="40" height="22" rx="4" fill="#05C7AA"/>
+    <rect x="543" y="72" width="40" height="22" rx="4" fill="#FF970F"/>
+    <rect x="588" y="72" width="40" height="22" rx="4" fill="#67B7F9"/>
+    <rect x="633" y="72" width="40" height="22" rx="4" fill="#F68ED0"/>
+    <rect x="678" y="72" width="40" height="22" rx="4" fill="#17C7D3"/>
+    <rect x="723" y="72" width="40" height="22" rx="4" fill="#FFFFFF"/>
+  </g>
+
+  <!-- terminal session -->
+  <text x="48" y="134" fill="#E6E6E6"><tspan fill="#05C7AA">&#10095; </tspan>ls</text>
+  <text x="48" y="162" fill="#E6E6E6"><tspan fill="#67B7F9">assets/</tspan>  <tspan fill="#67B7F9">themes/</tspan>  <tspan fill="#05C7AA">preview.sh</tspan>  README.md  LICENSE</text>
+  <text x="48" y="190" fill="#E6E6E6"><tspan fill="#05C7AA">&#10095; </tspan>git status -s</text>
+  <text x="48" y="218" fill="#E6E6E6"><tspan fill="#FF970F"> M </tspan>themes/ghost-of-panda</text>
+  <text x="48" y="246" fill="#E6E6E6"><tspan fill="#FF8FA9">?? </tspan>assets/ghost-of-panda.svg</text>
+  <text x="48" y="274" fill="#ACB0B9"># comments and dim text stay readable</text>
+
+  <!-- selection highlight -->
+  <rect x="44" y="288" width="204" height="24" rx="3" fill="#9097A7"/>
+  <text x="48" y="305" fill="#2B2D2E">this text is selected</text>
+
+  <!-- accent legend -->
+  <text x="48" y="334" fill="#E6E6E6"><tspan fill="#FF8FA9">error</tspan>  <tspan fill="#FF970F">warn</tspan>  <tspan fill="#05C7AA">ok</tspan>  <tspan fill="#17C7D3">info</tspan>  <tspan fill="#67B7F9">link</tspan>  <tspan fill="#F68ED0">hint</tspan></text>
+</svg>

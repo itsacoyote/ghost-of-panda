@@ -1,0 +1,34 @@
+# Ghost of Panda Dusk: a twilight Panda theme for Ghostty
+#
+# A dusky middle ground: darker than daylight, lighter than midnight. The background sits
+# about two steps up from the dark theme's charcoal, on a slate that reads like twilight.
+# Because a mid-dark background lowers contrast, the accents are brightened so every one
+# still meets WCAG AA (>= 4.5:1). MIT licensed; see the repository README and LICENSE.
+#
+# Install: copy this file to ~/.config/ghostty/themes/ then set:  theme = ghost-of-panda-dusk
+
+# ANSI palette (0-15)
+palette = 0=#292A2B
+palette = 1=#FF8FA9
+palette = 2=#05C7AA
+palette = 3=#FF970F
+palette = 4=#67B7F9
+palette = 5=#F68ED0
+palette = 6=#17C7D3
+palette = 7=#E6E6E6
+palette = 8=#ACB0B9
+palette = 9=#FF8FA9
+palette = 10=#05C7AA
+palette = 11=#FF970F
+palette = 12=#67B7F9
+palette = 13=#F68ED0
+palette = 14=#17C7D3
+palette = 15=#FFFFFF
+
+# Base UI colors
+background = #3E4250
+foreground = #E6E6E6
+cursor-color = #E6E6E6
+cursor-text = #3E4250
+selection-background = #9097A7
+selection-foreground = #2B2D2E
