@@ -1,0 +1,34 @@
+# Ghost of Panda Light: a Panda-inspired light theme for Ghostty
+#
+# A daylight companion to Ghost of Panda. Panda has no official light palette, so this
+# keeps Panda's hues but darkens each accent to meet WCAG AA contrast (>= 4.5:1) against
+# the warm off-white background. MIT licensed; see the repository README and LICENSE.
+#
+# Install (auto light/dark switch): copy both theme files to ~/.config/ghostty/themes/
+# then set:  theme = light:ghost-of-panda-light,dark:ghost-of-panda
+
+# ANSI palette (0-15)
+palette = 0=#2B2D2E
+palette = 1=#DB0043
+palette = 2=#037C6A
+palette = 3=#A85700
+palette = 4=#0671C6
+palette = 5=#D60063
+palette = 6=#0C777D
+palette = 7=#C8C6C0
+palette = 8=#696E77
+palette = 9=#DB0043
+palette = 10=#037C6A
+palette = 11=#A85700
+palette = 12=#0671C6
+palette = 13=#D60063
+palette = 14=#0C777D
+palette = 15=#E4E2DC
+
+# Base UI colors
+background = #F7F5F0
+foreground = #2B2D2E
+cursor-color = #2B2D2E
+cursor-text = #F7F5F0
+selection-background = #CBD3E6
+selection-foreground = #2B2D2E
