@@ -2,33 +2,33 @@
 #
 # A daylight companion to Ghost of Panda. Panda has no official light palette, so this
 # keeps Panda's hues but darkens each accent to meet WCAG AA contrast (>= 4.5:1) against
-# the warm greige background. MIT licensed; see the repository README and LICENSE.
+# the soft warm-grey background. MIT licensed; see the repository README and LICENSE.
 #
 # Install (auto light/dark switch): copy both theme files to ~/.config/ghostty/themes/
 # then set:  theme = light:ghost-of-panda-light,dark:ghost-of-panda
 
 # ANSI palette (0-15)
 palette = 0=#2B2D2E
-palette = 1=#D10040
-palette = 2=#037766
-palette = 3=#A35400
-palette = 4=#066BBC
-palette = 5=#CC005F
-palette = 6=#0C7379
-palette = 7=#B4AC9C
-palette = 8=#6D675A
-palette = 9=#D10040
-palette = 10=#037766
-palette = 11=#A35400
-palette = 12=#066BBC
-palette = 13=#CC005F
-palette = 14=#0C7379
-palette = 15=#E0DDD6
+palette = 1=#C7003D
+palette = 2=#036D5E
+palette = 3=#994F00
+palette = 4=#0665B2
+palette = 5=#C2005A
+palette = 6=#0C6E74
+palette = 7=#8D8A81
+palette = 8=#66635C
+palette = 9=#C7003D
+palette = 10=#036D5E
+palette = 11=#994F00
+palette = 12=#0665B2
+palette = 13=#C2005A
+palette = 14=#0C6E74
+palette = 15=#AFADA7
 
 # Base UI colors
-background = #F0EBE1
+background = #E4E2DC
 foreground = #2B2D2E
 cursor-color = #2B2D2E
-cursor-text = #F0EBE1
-selection-background = #D3CEC5
+cursor-text = #E4E2DC
+selection-background = #C5C3BF
 selection-foreground = #2B2D2E
