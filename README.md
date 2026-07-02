@@ -12,28 +12,16 @@ color comfortably readable on the dark background. It is an independent, unaffil
 
 ## Preview
 
-See the palette in your own terminal. With the theme active, run the included script:
+![Ghost of Panda: a terminal window showing the palette and sample output](assets/ghost-of-panda.svg)
+
+See it live in your own terminal, too. With the theme active, run the included script:
 
 ```bash
 ./preview.sh
 ```
 
 It prints all 16 ANSI colors as swatches, a sample sentence per color, and dark text on
-each color, so you can judge readability at a glance. (A static screenshot is on the
-to-do list.)
-
-At a glance, the theme is a warm charcoal background with vivid pink, teal, orange, and
-blue accents:
-
-| | Color | Hex |
-|---|---|---|
-| Background | charcoal | `#292A2B` |
-| Foreground | off-white | `#E6E6E6` |
-| Accent | pink/red | `#FF4B82` |
-| Accent | teal/green | `#19F9D8` |
-| Accent | cyan | `#2CE0EA` |
-| Accent | orange | `#FFB86C` |
-| Accent | blue | `#45A9F9` |
+each color, so you can judge readability at a glance.
 
 ## Installation
 
