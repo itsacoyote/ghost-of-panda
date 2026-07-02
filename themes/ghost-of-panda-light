@@ -8,7 +8,7 @@
 # then set:  theme = light:ghost-of-panda-light,dark:ghost-of-panda
 
 # ANSI palette (0-15)
-palette = 0=#2B2D2E
+palette = 0=#373B41
 palette = 1=#C7003D
 palette = 2=#036D5E
 palette = 3=#994F00
@@ -27,8 +27,8 @@ palette = 15=#AFADA7
 
 # Base UI colors
 background = #E4E2DC
-foreground = #2B2D2E
-cursor-color = #2B2D2E
+foreground = #373B41
+cursor-color = #373B41
 cursor-text = #E4E2DC
 selection-background = #C5C3BF
-selection-foreground = #2B2D2E
+selection-foreground = #373B41

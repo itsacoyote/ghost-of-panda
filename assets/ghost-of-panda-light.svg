@@ -10,7 +10,7 @@
 
   <!-- palette swatch band (ANSI 0-15) -->
   <g stroke="#CBC8BF">
-    <rect x="48"  y="72" width="40" height="22" rx="4" fill="#2B2D2E"/>
+    <rect x="48"  y="72" width="40" height="22" rx="4" fill="#373B41"/>
     <rect x="93"  y="72" width="40" height="22" rx="4" fill="#C7003D"/>
     <rect x="138" y="72" width="40" height="22" rx="4" fill="#036D5E"/>
     <rect x="183" y="72" width="40" height="22" rx="4" fill="#994F00"/>
@@ -29,17 +29,17 @@
   </g>
 
   <!-- terminal session -->
-  <text x="48" y="134" fill="#2B2D2E"><tspan fill="#036D5E">&#10095; </tspan>ls</text>
-  <text x="48" y="162" fill="#2B2D2E"><tspan fill="#0665B2">assets/</tspan>  <tspan fill="#0665B2">themes/</tspan>  <tspan fill="#036D5E">preview.sh</tspan>  README.md  LICENSE</text>
-  <text x="48" y="190" fill="#2B2D2E"><tspan fill="#036D5E">&#10095; </tspan>git status -s</text>
-  <text x="48" y="218" fill="#2B2D2E"><tspan fill="#994F00"> M </tspan>themes/ghost-of-panda</text>
-  <text x="48" y="246" fill="#2B2D2E"><tspan fill="#C7003D">?? </tspan>assets/ghost-of-panda.svg</text>
+  <text x="48" y="134" fill="#373B41"><tspan fill="#036D5E">&#10095; </tspan>ls</text>
+  <text x="48" y="162" fill="#373B41"><tspan fill="#0665B2">assets/</tspan>  <tspan fill="#0665B2">themes/</tspan>  <tspan fill="#036D5E">preview.sh</tspan>  README.md  LICENSE</text>
+  <text x="48" y="190" fill="#373B41"><tspan fill="#036D5E">&#10095; </tspan>git status -s</text>
+  <text x="48" y="218" fill="#373B41"><tspan fill="#994F00"> M </tspan>themes/ghost-of-panda</text>
+  <text x="48" y="246" fill="#373B41"><tspan fill="#C7003D">?? </tspan>assets/ghost-of-panda.svg</text>
   <text x="48" y="274" fill="#66635C"># comments and dim text stay readable</text>
 
   <!-- selection highlight -->
   <rect x="44" y="288" width="204" height="24" rx="3" fill="#C5C3BF"/>
-  <text x="48" y="305" fill="#2B2D2E">this text is selected</text>
+  <text x="48" y="305" fill="#373B41">this text is selected</text>
 
   <!-- accent legend -->
-  <text x="48" y="334" fill="#2B2D2E"><tspan fill="#C7003D">error</tspan>  <tspan fill="#994F00">warn</tspan>  <tspan fill="#036D5E">ok</tspan>  <tspan fill="#0C6E74">info</tspan>  <tspan fill="#0665B2">link</tspan>  <tspan fill="#C2005A">hint</tspan></text>
+  <text x="48" y="334" fill="#373B41"><tspan fill="#C7003D">error</tspan>  <tspan fill="#994F00">warn</tspan>  <tspan fill="#036D5E">ok</tspan>  <tspan fill="#0C6E74">info</tspan>  <tspan fill="#0665B2">link</tspan>  <tspan fill="#C2005A">hint</tspan></text>
 </svg>

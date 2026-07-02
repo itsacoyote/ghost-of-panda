@@ -106,7 +106,7 @@ accent to meet WCAG AA on a soft warm-grey background (`#E4E2DC`).
 
 | Slot | Role | Hex | | Slot | Role | Hex |
 |---:|---|---|---|---:|---|---|
-| 0 | black | `#2B2D2E` | | 8 | bright black | `#66635C` |
+| 0 | black | `#373B41` | | 8 | bright black | `#66635C` |
 | 1 | red | `#C7003D` | | 9 | bright red | `#C7003D` |
 | 2 | green | `#036D5E` | | 10 | bright green | `#036D5E` |
 | 3 | yellow | `#994F00` | | 11 | bright yellow | `#994F00` |
@@ -118,11 +118,11 @@ accent to meet WCAG AA on a soft warm-grey background (`#E4E2DC`).
 | UI element | Hex |
 |---|---|
 | `background` | `#E4E2DC` |
-| `foreground` | `#2B2D2E` |
-| `cursor-color` | `#2B2D2E` |
+| `foreground` | `#373B41` |
+| `cursor-color` | `#373B41` |
 | `cursor-text` | `#E4E2DC` |
 | `selection-background` | `#C5C3BF` |
-| `selection-foreground` | `#2B2D2E` |
+| `selection-foreground` | `#373B41` |
 
 </details>
 
