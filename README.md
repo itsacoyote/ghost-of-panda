@@ -1,34 +1,43 @@
 # 🐼 Ghost of Panda
 
-A [Ghostty](https://ghostty.org) terminal theme that faithfully recreates the
-[**Panda**](https://github.com/PandaTheme) color palette — the beloved "superminimal, dark"
-theme that is no longer actively maintained and never shipped a Ghostty port.
+A [Ghostty](https://ghostty.org) terminal theme inspired by
+[**Panda**](https://github.com/PandaTheme), retuned so every color meets WCAG AA contrast.
+The name is a play on words: **Ghost**ty + **Panda**.
 
-The name is a play on words: **Ghost**ty + **Panda**. This is an independent, unaffiliated
-tribute so the Panda look lives on in Ghostty.
+Panda is a warm, dark theme that is no longer actively maintained and never shipped a
+Ghostty port. Ghost of Panda keeps its pink, teal, and orange character while making every
+color comfortably readable on the dark background. It is an independent, unaffiliated tribute.
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-19F9D8)
 
----
-
 ## Preview
 
-Panda is a warm, dark theme built around a soft charcoal background with vivid pink, teal,
-and orange accents.
+See the palette in your own terminal. With the theme active, run the included script:
+
+```bash
+./preview.sh
+```
+
+It prints all 16 ANSI colors as swatches, a sample sentence per color, and dark text on
+each color, so you can judge readability at a glance. (A static screenshot is on the
+to-do list.)
+
+At a glance, the theme is a warm charcoal background with vivid pink, teal, orange, and
+blue accents:
 
 | | Color | Hex |
 |---|---|---|
 | Background | charcoal | `#292A2B` |
 | Foreground | off-white | `#E6E6E6` |
-| Accent | pink/red | `#FF2C6D` |
+| Accent | pink/red | `#FF4B82` |
 | Accent | teal/green | `#19F9D8` |
+| Accent | cyan | `#2CE0EA` |
 | Accent | orange | `#FFB86C` |
 | Accent | blue | `#45A9F9` |
-| Accent | pink | `#FF75B5` |
 
-> A real terminal screenshot is on the to-do list — contributions welcome.
+## Installation
 
-### Quick install — just the theme file
+### Quick install (just the theme file)
 
 ```bash
 mkdir -p ~/.config/ghostty/themes
@@ -57,22 +66,19 @@ theme = ghost-of-panda
 
 Then reload your config with <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>,</kbd> on macOS (or restart Ghostty).
 
-That's it — your terminal now wears Panda.
-
 ## Palette
 
-The full ANSI mapping, taken from Panda's canonical palette (the values used by the
-flagship Panda editor themes).
+Every text color clears WCAG AA (>= 4.5:1) against the background; most reach AAA.
 
 | Slot | Role | Hex | | Slot | Role | Hex |
 |---:|---|---|---|---:|---|---|
-| 0 | black | `#292A2B` | | 8 | bright black | `#676B79` |
-| 1 | red | `#FF2C6D` | | 9 | bright red | `#FF2C6D` |
+| 0 | black | `#292A2B` | | 8 | bright black | `#8E93A4` |
+| 1 | red | `#FF4B82` | | 9 | bright red | `#FF4B82` |
 | 2 | green | `#19F9D8` | | 10 | bright green | `#19F9D8` |
 | 3 | yellow | `#FFB86C` | | 11 | bright yellow | `#FFCC95` |
 | 4 | blue | `#45A9F9` | | 12 | bright blue | `#6FC1FF` |
 | 5 | magenta | `#FF75B5` | | 13 | bright magenta | `#FF9AC1` |
-| 6 | cyan | `#6FC1FF` | | 14 | bright cyan | `#6FC1FF` |
+| 6 | cyan | `#2CE0EA` | | 14 | bright cyan | `#2CE0EA` |
 | 7 | white | `#E6E6E6` | | 15 | bright white | `#FFFFFF` |
 
 | UI element | Hex |
@@ -81,24 +87,27 @@ flagship Panda editor themes).
 | `foreground` | `#E6E6E6` |
 | `cursor-color` | `#E6E6E6` |
 | `cursor-text` | `#292A2B` |
-| `selection-background` | `#676B79` |
-| `selection-foreground` | `#E6E6E6` |
+| `selection-background` | `#8E93A4` |
+| `selection-foreground` | `#292A2B` |
 
 ### Notes on the palette
 
-- **No true cyan.** Panda's palette has no dedicated cyan, so the cyan slots (6 and 14)
-  reuse Panda's light blue `#6FC1FF`, matching how Panda's own terminal ports handled it.
-  (Bright blue, slot 12, is also `#6FC1FF` — Panda's light blue doubling as bright blue.)
+- **Accessibility first.** The palette adapts Panda's colors so each one meets WCAG AA
+  against the background. Panda's signature red (`#FF2C6D`, 3.99:1) becomes its lighter
+  sibling `#FF4B82` (4.51:1), and the dim comment gray becomes a readable `#8E93A4`.
+- **A real cyan.** Panda has no dedicated cyan (its "green" `#19F9D8` is really a teal), so
+  older Panda terminal ports reused a light blue in the cyan slot. Ghost of Panda adds a
+  true cyan `#2CE0EA` between the teal-green and blue, so cyan and blue read as distinct.
 - **A more saturated Panda exists.** Panda's official iTerm port uses a darker, more
-  saturated interpretation (background `#1D1E20`, red `#FB055A`). Ghost of Panda instead
-  follows the canonical *editor* palette, which is the look most people associate with Panda.
-- Every value is a plain hex color — tweak any slot in `themes/ghost-of-panda` to taste.
+  saturated interpretation (background `#1D1E20`, red `#FB055A`). Ghost of Panda follows
+  the canonical editor palette, the look most people associate with Panda.
+- Every value is plain hex; tweak any slot in `themes/ghost-of-panda` to taste.
 
 ## Credits
 
-- **[Panda Theme](https://github.com/PandaTheme)** by [Siamak Mokhtari](https://github.com/siamak) —
-  the original theme this palette comes from. All color credit is theirs.
-- **[Ghostty](https://ghostty.org)** by Mitchell Hashimoto and contributors — the terminal
+- **[Panda Theme](https://github.com/PandaTheme)** by [Siamak Mokhtari](https://github.com/siamak):
+  the original theme this palette is based on. All color credit is theirs.
+- **[Ghostty](https://ghostty.org)** by Mitchell Hashimoto and contributors: the terminal
   this theme targets. See the [theme docs](https://ghostty.org/docs/features/theme).
 
 ## License

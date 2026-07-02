@@ -1,29 +1,29 @@
-# Ghost of Panda — a Panda-inspired theme for Ghostty
+# Ghost of Panda: a Panda-inspired theme for Ghostty
 #
-# A faithful recreation of the Panda color palette (https://github.com/PandaTheme),
-# a beloved dark theme that is no longer actively maintained and never had a Ghostty
-# port. Original Panda theme by Siamak Mokhtari. This port is MIT licensed — see the
-# repository's README and LICENSE.
+# A Panda-inspired palette (https://github.com/PandaTheme), tuned so every color meets
+# WCAG AA contrast (>= 4.5:1) against the background. Panda is a beloved dark theme that
+# is no longer actively maintained and never had a Ghostty port. Original Panda theme by
+# Siamak Mokhtari. MIT licensed; see the repository README and LICENSE.
 #
 # Install: copy this file to  ~/.config/ghostty/themes/ghost-of-panda
 # then add to your Ghostty config:  theme = ghost-of-panda
 
 # ANSI palette (0–15)
 palette = 0=#292A2B
-palette = 1=#FF2C6D
+palette = 1=#FF4B82
 palette = 2=#19F9D8
 palette = 3=#FFB86C
 palette = 4=#45A9F9
 palette = 5=#FF75B5
-palette = 6=#6FC1FF
+palette = 6=#2CE0EA
 palette = 7=#E6E6E6
-palette = 8=#676B79
-palette = 9=#FF2C6D
+palette = 8=#8E93A4
+palette = 9=#FF4B82
 palette = 10=#19F9D8
 palette = 11=#FFCC95
 palette = 12=#6FC1FF
 palette = 13=#FF9AC1
-palette = 14=#6FC1FF
+palette = 14=#2CE0EA
 palette = 15=#FFFFFF
 
 # Base UI colors
@@ -31,5 +31,5 @@ background = #292A2B
 foreground = #E6E6E6
 cursor-color = #E6E6E6
 cursor-text = #292A2B
-selection-background = #676B79
-selection-foreground = #E6E6E6
+selection-background = #8E93A4
+selection-foreground = #292A2B
